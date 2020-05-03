@@ -1,0 +1,266 @@
+body{
+	background-color:#f4f4f4;
+	font-family: Arial,Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	padding: 0;
+	margin:0;
+}
+/* Global */
+.container{
+	width: 80%;
+	margin:auto;
+	overflow:hidden;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+
+.button_1 {
+	height:38px;
+	background: green;
+	border:0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color:#ffffff;
+
+}
+
+/* Header */
+header{
+	background-color: #35424a;
+	color:#fff;
+	padding-top: 20px;
+	min-height:50px;
+	border-bottom:green 3px solid;
+}
+header a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li {
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float:left;
+}
+header #branding h1{
+    margin-top:10px;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+header nav {
+	float: right;
+	margin-top:10px;
+}
+
+#navbar{
+	background-color: #35424a;
+	color: #fff;
+}
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+#navbar li{
+	display:inline;
+	}*/
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+header .highlight, header .current a {
+	color:green;
+	font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+header #mainlogo {
+	float: left;
+	border-radius: 50%;
+	height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+/* Showcase  */
+#showcase{
+	min-height: 400px;
+	background: url('../images/erik.jpg') no-repeat 0; 
+	background-position: center;
+	text-align: center;
+}
+#showcase h1{
+	color: white;
+	font-size: 35px;
+	line-height: 1.6em;
+	padding-top: 30px;
+	margin-bottom: 10px;
+}
+#showcase p{
+	color:white;
+	font-size: 15px;
+	}
+
+/* newsletter   */
+
+#newsletter {
+	padding:3px;
+	color:#ffffff;
+	background: #35424a;
+}
+#newsletter h1 {
+	float:left;
+	font-size: 20px;
+}
+#newsletter form {
+	float:right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#newsletter input[type="email"] {
+	padding:4px;
+	height:25px;
+	width:250px;
+}
+
+/* Boxes */
+
+#boxes{
+	margin-top: 20px;
+}
+
+#boxes .box {
+	float:left;
+	text-align: center;
+	width:30%;
+	padding:10px;
+
+}
+
+#boxes .box img {
+	width:90px;
+}
+
+
+#sidebar{
+	float:right;
+	width:30%;
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+/* Gallery of Graphic Novel*/ 
+
+#galerka {
+	text-align: center;
+}
+
+#gallery {
+	margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+/* Project box */
+
+#proj-box {
+	border-style: groove;
+	margin-top: 20px;
+}
+
+#proj-box h1 {
+	text-align: center;
+}
+#proj-box p {
+	margin-left: 10px;
+}
+.row {
+  display: flex;
+  align-items: stretch;
+  /* align-items: center; vdaka tomuto to ide do stredu */
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  margin:5px;
+  background-color: black;
+}
+
+#gnrow {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+#gncolumn {
+  flex: 50%;
+  padding: 5px;
+}
+
+#bio-picture {
+	width:150px;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 125px;
+}
+
+/* Footer */
+#footer{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	background-color:black;
+	padding: 20px;
+	margin-top:40px;
+}
+/* MEDIA QUERIES */
+@media(max-width: 768px){
+	header #branding,
+	header nav,
+	header nav li,
+	#newsletter h1,
+	#newsletter form,
+	#boxes .box {
+		float: none;
+		text text-align: center;
+		width: 100%;
+	}
+	header {
+		padding-bottom: 20px;
+	}
+	#showcase h1 {
+		margin-top: 40px;
+	}
+
+	#newsletter button .quote button {
+		display:block;
+		width:100%;
+	}
+
+	#newsletter form input[type="email"], .quote input, .quote textarea {
+        width:100%;
+        margin-bottom: 5px;
+	}
+}
