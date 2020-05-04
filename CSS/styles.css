@@ -269,6 +269,14 @@ header #mainlogo {
 		display:block;
 		width:100%;
 	}
+	
+	#bio-picture {
+		margin-top: 20px;
+		float: none;
+		text-align: center;
+		width: 50%;
+		height: 50%;
+	}
 
 	#newsletter form input[type="email"], .quote input, .quote textarea {
         width:100%;
