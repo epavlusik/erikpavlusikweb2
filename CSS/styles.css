@@ -94,9 +94,9 @@ header #mainlogo {
 	float: left;
 	border-radius: 50%;
 	height: 50px;
-    width: 50px;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    	width: 50px;
+    	margin-bottom: 20px;
+    	margin-right: 10px;
 }
 
 /* Showcase  */
@@ -177,9 +177,9 @@ header #mainlogo {
 
 #gallery {
 	margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
+    	width: 50%;
+    	border: 3px solid green;
+    	padding: 10px;
 }
 
 /* Project box */
@@ -235,6 +235,11 @@ header #mainlogo {
 	padding: 20px;
 	margin-top:40px;
 }
+
+#main {
+	font-size: 16px;
+}
+
 /* MEDIA QUERIES */
 @media(max-width: 768px){
 	header #branding,
@@ -244,7 +249,7 @@ header #mainlogo {
 	#newsletter form,
 	#boxes .box {
 		float: none;
-		text text-align: center;
+		text-align: center;
 		width: 100%;
 	}
 	header {
