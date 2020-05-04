@@ -270,12 +270,29 @@ header #mainlogo {
 		width:100%;
 	}
 	
+	header #mainlogo {
+		margin: 0 0 0 0;
+		float: none;
+		text-align: center;
+		width: 30%;
+		height: 30%;
+	}
+	header #branding h1 {
+		margin:0 0 0 0;
+		float: none;
+	}
 	#bio-picture {
 		margin-top: 20px;
 		float: none;
 		text-align: center;
 		width: 50%;
 		height: 50%;
+	}
+	header #header{
+		padding-bottom: 20px;
+	}
+	#showcase h1 {
+		margin-top: 40px;
 	}
 
 	#newsletter form input[type="email"], .quote input, .quote textarea {
