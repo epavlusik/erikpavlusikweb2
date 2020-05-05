@@ -187,6 +187,7 @@ header #mainlogo {
 #proj-box {
 	border-style: groove;
 	margin-top: 20px;
+	margin-bottom:20px;
 }
 
 #proj-box h1 {
